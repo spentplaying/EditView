@@ -26,7 +26,7 @@
         android:layout_below="@+id/img"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="50dp"
-        android:text="Keng"
+        android:id="@+id/f_name"
         android:textSize="28sp"/>
     <TextView
         android:layout_width="wrap_content"
@@ -45,7 +45,7 @@
         android:layout_alignLeft="@id/tx2"
         android:layout_marginRight="20dp"
         android:layout_marginTop="50dp"
-        android:text="Chang"
+        android:id="@+id/l_name"
         android:textSize="28sp"/>
     <TextView
         android:layout_width="wrap_content"
@@ -61,15 +61,16 @@
         android:layout_below="@+id/img"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="150dp"
-        android:text="jordan820926@gmail.com"
+        android:id="@+id/email"
         android:textSize="28sp"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/img"
         android:layout_marginTop="250dp"
-        android:layout_marginLeft="230dp"
+        android:layout_marginLeft="220dp"
         android:text="CANCEL"
+        android:id="@+id/cancel"
         android:textSize="20sp"
         />
     <Button
@@ -79,6 +80,7 @@
         android:layout_marginLeft="60dp"
         android:layout_marginTop="250dp"
         android:text="SAVE"
+        android:id="@+id/save"
         android:textSize="20sp"
         />
 </RelativeLayout>

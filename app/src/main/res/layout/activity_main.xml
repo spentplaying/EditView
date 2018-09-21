@@ -26,7 +26,7 @@
         android:layout_below="@+id/img"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="50dp"
-        android:text="Keng"
+        android:id="@+id/f_name"
         android:textSize="28sp"
         android:focusable="false"/>
     <TextView
@@ -46,7 +46,7 @@
         android:layout_alignLeft="@id/tx2"
         android:layout_marginRight="20dp"
         android:layout_marginTop="50dp"
-        android:text="Chang"
+        android:id="@+id/l_name"
         android:textSize="28sp"
         android:focusable="false"/>
     <TextView
@@ -63,7 +63,7 @@
         android:layout_below="@+id/img"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="150dp"
-        android:text="jordan820926@gmail.com"
+        android:id="@+id/email"
         android:textSize="28sp"
         android:focusable="false"/>
     <Button
