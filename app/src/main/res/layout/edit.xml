@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/pusheen"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/img"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="First Name"
+        android:textSize="24sp" />
+    <EditText
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:text="Keng"
+        android:textSize="28sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="20dp"
+        android:text="Last Name"
+        android:id="@+id/tx2"
+        android:textSize="24sp" />
+    <EditText
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img"
+        android:layout_alignLeft="@id/tx2"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:text="Chang"
+        android:textSize="28sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="120dp"
+        android:text="Email"
+        android:textSize="24sp" />
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="150dp"
+        android:text="jordan820926@gmail.com"
+        android:textSize="28sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="230dp"
+        android:text="CANCEL"
+        android:textSize="20sp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="250dp"
+        android:text="SAVE"
+        android:textSize="20sp"
+        />
+</RelativeLayout>
